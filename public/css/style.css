@@ -1133,12 +1133,12 @@ body {
     }
     
     .card-3d {
-      height: 70px;
+      height: 120px;
     }
     
     .card-3d div {
-      width: 40px;
-      height: 60px;
+      width: 80px;
+      height: 120px;
     }
 
     .card-3d div:nth-child(1) { transform: translate(-50%, -50%) rotateY(0deg) translateZ(80px); }
@@ -1160,12 +1160,19 @@ body {
       z-index: 1;
       transition: none;
       font-size: inherit;
+      animation: none;
     }
 
     h4 {
-      font-size: 0.5em;
+      font-size: 1em;
       margin-top: 0.5em;
       margin-bottom: 0.5em;
+    }
+
+    .card-3d div img {
+      width: 80%;
+      height: 50%;
+      margin-left: 0.5em;
     }
   }
 
