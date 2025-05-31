@@ -1218,7 +1218,8 @@ body {
       font-size: 1.2em;
       margin-top: 2em;
       padding: 0.5em 1em;
-      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
     }
 
     .footer-section a {
