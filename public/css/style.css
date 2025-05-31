@@ -135,14 +135,11 @@ body {
       margin-top: 4em;
     }
 
-    .border {
-      border: 2px solid #865ff2;
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .card {
+      width: 1000px;
+      height: 600px;
       margin: 0 auto;
-      margin-top: 22em;
+      padding: 2em;
     }
 
     .cv-text {
