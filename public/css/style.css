@@ -1204,7 +1204,7 @@ body {
       height: 28px;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-60%, -20%);
     }
     
     .cv-text {
@@ -1218,8 +1218,7 @@ body {
       justify-content: center;
       align-items: center;
       font-size: 1.2em;
-      padding: 0.5em 1em;
-      margin: 1em;
+      margin-top: 2em;
     }
 
     .footer-section a {
