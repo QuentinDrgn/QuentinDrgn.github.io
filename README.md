@@ -1,2 +1,2 @@
 # QuentinDrgn.github.io
-Hostin my portfolio
+Hosting my portfolio
