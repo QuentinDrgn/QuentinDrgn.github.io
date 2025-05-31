@@ -1038,7 +1038,7 @@
     
     .nav { 
       flex-direction: column; 
-      align-items: center; 
+      align-items: right; 
       margin: 0.5em auto;
       gap: 0.2em;
     }
@@ -1048,7 +1048,13 @@
       margin: 0.2em 0;
     }
     
-    h1, h2 { 
+    h1 { 
+      font-size: 1.5em; 
+      letter-spacing: 0.08em;
+      margin: 0.5em auto;
+    }
+
+    h2 { 
       font-size: 1.3em; 
       letter-spacing: 0.08em;
       margin: 0.5em auto;
@@ -1069,6 +1075,11 @@
       margin-top: 1em;
       padding: 0 0.5em;
     }
+
+    .presentation2 p { 
+      font-size: 1em;
+      text-align: center;
+    }
     
     .description-slide { 
       margin: 1em auto;
@@ -1087,6 +1098,9 @@
     .content .logo { 
       width: 80px;
       height: 30px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     
     .footer { 
@@ -1116,7 +1130,7 @@
     }
     
     .card-3d { 
-      width: 95vw;
+      width: 60vw;
       height: 90px;
       margin: 0 auto;
     }
@@ -1132,6 +1146,12 @@
       height: 110px;
     }
     
+    .card-3d div.card:not(:hover) {
+      width: 50px;
+      height: 80px;
+      filter: brightness(0.7);
+    }
+
     .carousel-arrow { 
       width: 28px;
       height: 28px;
