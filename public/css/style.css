@@ -1221,17 +1221,11 @@ body {
     top: unset;
     left: unset;
     transform: none;
-}
-
-    .footer-section a {
-      font-size: 1.2em !important;
-      margin: 0.2em 0 !important;
-      text-align: right !important;
     }
 
-    .footer-section ul {
-      padding: 0;
+    .footer-section ul li a {
       font-size: 1.2em;
+      text-align: right;
     }
   }
   
