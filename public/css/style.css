@@ -838,13 +838,11 @@
   html {
     font-size: 16px;
     -webkit-text-size-adjust: 100%;
-    scroll-behavior: smooth;
   }
 
   img {
     max-width: 100%;
     height: auto;
-    display: block;
   }
 
   /* Touch device support */
@@ -855,31 +853,20 @@
     
     body {
       cursor: auto;
-      -webkit-tap-highlight-color: transparent;
     }
     
-    a, .btn, button {
+    a, .btn {
       cursor: pointer;
-      -webkit-tap-highlight-color: transparent;
     }
     
-    .card-3d {
-      animation: none;
-      transform-style: flat;
-    }
-    
-    .card-3d div {
-      position: relative;
-      transform: none !important;
-      margin: 0.5em;
-      display: inline-block;
-      vertical-align: top;
-      animation: none;
+    .card-3d:hover {
+      animation-play-state: running !important;
     }
     
     .card-3d div:hover {
-      transform: scale(1.1) !important;
-      z-index: 2;
+      width: 120px;
+      height: 250px;
+      filter: brightness(1);
     }
   }
 
@@ -1042,184 +1029,181 @@
 
   @media (max-width: 600px) {
     html {
-      font-size: 14px;
+      font-size: 13px;
     }
     
-    body {
+    body { 
       font-size: 0.9em;
-      padding: 0;
-      margin: 0;
     }
     
-    .nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      background: rgba(25, 25, 25, 0.95);
-      padding: 0.5em;
-      z-index: 1000;
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
+    .nav { 
+      flex-direction: column; 
+      align-items: center; 
+      margin: 0.5em auto;
+      gap: 0.2em;
     }
     
-    .nav a {
+    .nav a { 
       font-size: 1em;
-      padding: 0.5em;
-      width: 100%;
-      text-align: center;
-      border-bottom: 1px solid rgba(134, 95, 242, 0.2);
+      margin: 0.2em 0;
     }
     
-    h1, h2 {
-      font-size: 1.5em;
-      letter-spacing: 0.1em;
-      text-align: center;
-      margin: 1em auto;
-      padding: 0 0.5em;
+    h1, h2 { 
+      font-size: 1.3em; 
+      letter-spacing: 0.08em;
+      margin: 0.5em auto;
     }
     
-    .presentation {
-      margin-top: 4em;
-      padding: 0 1em;
+    .presentation { 
+      margin-top: 2em;
     }
     
-    .profile-pic {
-      width: 85vw;
-      max-width: 280px;
+    .profile-pic { 
+      width: 90vw;
+      max-width: 300px;
       height: auto;
-      margin: 1em auto;
-      border-radius: 4%;
+      margin: 0 auto 1em auto;
     }
     
-    .presentation2 {
+    .presentation2 { 
       margin-top: 1em;
-      padding: 0 1em;
-    }
-    
-    .description-slide {
-      margin: 1em auto;
-      font-size: 1em;
-      max-width: 90vw;
-      text-align: left;
       padding: 0 0.5em;
     }
     
-    .card {
-      width: 90vw;
-      height: auto;
-      min-height: 250px;
+    .description-slide { 
       margin: 1em auto;
-      padding: 1em;
-      position: relative;
-      top: 0;
-      left: 0;
-      transform: none;
+      font-size: 1em;
+      max-width: 95vw;
     }
     
-    .card-3d {
-      width: 90vw;
+    .card { 
+      width: 95vw;
       height: auto;
-      min-height: 120px;
+      min-height: 300px;
       margin: 1em auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.5em;
-      padding: 0.5em;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
+      padding: 1em 0.2em;
     }
     
-    .card-3d div {
-      width: 45vw;
-      max-width: 140px;
-      height: auto;
-      min-height: 180px;
-      margin: 0;
-      position: relative;
-      transform: none !important;
+    .content .logo { 
+      width: 80px;
+      height: 30px;
     }
     
-    .card-3d div img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-    
-    .btn {
+    .footer { 
+      padding: 20px 5px;
       font-size: 0.9em;
-      padding: 0.8em 1.2em;
-      margin: 1.5em auto;
-      width: 80%;
-      max-width: 200px;
-      display: block;
     }
     
-    .footer {
-      padding: 2em 1em;
-    }
-    
-    .footer-section {
-      margin: 1em 0;
+    .footer-section h4 { 
+      font-size: 1.1em;
       text-align: center;
     }
     
-    .footer-section h4 {
-      font-size: 1.2em;
-      margin-bottom: 0.5em;
-    }
-    
-    .footer-section ul li a {
-      font-size: 0.9em;
-      padding: 0.3em 0;
+    .footer-section ul li a { 
+      font-size: 1em;
       justify-content: center;
     }
     
-    #back-to-top {
-      width: 35px;
-      height: 35px;
-      bottom: 20px;
-      right: 20px;
-      font-size: 1.2em;
+    .footer-bottom { 
+      text-align: center;
+      font-size: 0.8em;
+    }
+    
+    .btn { 
+      font-size: 0.8em;
+      padding: 0.5em 0.7em;
+      margin: 1em auto;
+    }
+    
+    .card-3d { 
+      width: 95vw;
+      height: 90px;
+      margin: 0 auto;
+    }
+    
+    .card-3d div { 
+      width: 50px;
+      height: 80px;
+      margin-top: 1em;
+    }
+    
+    .card-3d div:hover { 
+      width: 70px;
+      height: 110px;
+    }
+    
+    .carousel-arrow { 
+      width: 28px;
+      height: 28px;
+      font-size: 1em;
+    }
+    
+    .carousel-indicators { 
+      bottom: -18px;
+      gap: 4px;
+    }
+    
+    .carousel-indicator { 
+      width: 7px;
+      height: 7px;
+    }
+    
+    .loading-bar {
+      width: 90vw;
+      max-width: 300px;
     }
   }
 
   @media (max-width: 400px) {
     html {
-      font-size: 13px;
+      font-size: 12px;
     }
     
-    h1, h2 {
-      font-size: 1.3em;
-      letter-spacing: 0.08em;
+    h1, h2 { 
+      font-size: 1.1em;
+      letter-spacing: 0.05em;
     }
     
-    .profile-pic {
-      width: 80vw;
-      max-width: 240px;
+    .presentation { 
+      margin-top: 1em;
+    }
+    
+    .profile-pic { 
+      width: 90vw;
+      max-width: 250px;
+      height: auto;
+      margin: 0 auto 0.5em auto;
+    }
+    
+    .presentation2 { 
+      margin-top: 0.5em;
+      padding: 0 0.3em;
+    }
+    
+    .description-slide { 
+      margin: 0.5em auto;
+      font-size: 0.9em;
+      max-width: 95vw;
+    }
+    
+    .card-3d {
+      height: 70px;
     }
     
     .card-3d div {
-      width: 42vw;
-      max-width: 120px;
-      min-height: 160px;
+      width: 40px;
+      height: 60px;
     }
     
-    .btn {
-      font-size: 0.85em;
-      padding: 0.7em 1em;
-      width: 85%;
-    }
-    
-    .footer-section ul li a {
-      font-size: 0.85em;
+    .card-3d div:hover {
+      width: 60px;
+      height: 90px;
     }
   }
 
   @supports (-webkit-touch-callout: none) {
-    .loading, .card, .presentation2 {
-      min-height: -webkit-fill-available;
+    .loading {
+      height: -webkit-fill-available;
     }
   }
 
@@ -1227,21 +1211,11 @@
     max-width: 100vw;
     overflow-x: hidden;
     position: relative;
-    -webkit-overflow-scrolling: touch;
   }
 
   @media (max-width: 600px) {
     p, .description-slide, .footer-section ul li a {
-      line-height: 1.6;
+      line-height: 1.5;
       word-wrap: break-word;
-      hyphens: auto;
-      -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-    }
-    
-    .card-3d div h4 {
-      font-size: 0.9em;
-      margin: 0.3em 0;
-      padding: 0 0.2em;
     }
   }
