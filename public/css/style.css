@@ -1215,11 +1215,13 @@ body {
     }
 
     .btn {
-      font-size: 0.9em;
-      padding: 0.5em 1em;
-      margin: 1em auto;
-      display: block;
-    }
+    display: block;
+    margin: 1em auto;
+    position: static;
+    top: unset;
+    left: unset;
+    transform: none;
+}
 
     .footer-section a {
       font-size: 1.2em !important;
