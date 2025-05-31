@@ -1224,7 +1224,8 @@ body {
     }
 
     .footer-section ul li a {
-      font-size: 1.2em;
+      display: flex;
+      justify-content: flex-end;
       text-align: right;
     }
   }
