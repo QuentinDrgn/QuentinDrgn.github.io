@@ -1185,12 +1185,12 @@ body {
     }
 
     .content .logo-bottom-text {
-      font-size: 1em;
+      font-size: 1.3em;
     }
 
     .content .logo {
       width: 25px;
-      height: 20px;
+      height: 30px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
