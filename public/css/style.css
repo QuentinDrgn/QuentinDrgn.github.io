@@ -1185,13 +1185,13 @@ body {
     }
 
     .content .logo-bottom-text {
-      font-size: 1.6em;
+      font-size: 1.4em;
     }
 
     .content .logo1 .logo2 {
       top: 0%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-20%, -50%);
     }
 
     .content .logo {
