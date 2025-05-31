@@ -172,6 +172,10 @@ body {
     letter-spacing: 0.17em;
   }
 
+  .presentation2 p {
+    margin-top: -6em;
+  }
+
   .divider {
     color: #865ff2;
   }
@@ -1119,7 +1123,7 @@ body {
     .presentation2 p { 
       font-size: 1.1em;
       text-align: center;
-      margin-top: 1em;
+      margin-top: 2.5em;
     }
     
     .description-slide { 
