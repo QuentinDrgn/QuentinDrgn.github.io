@@ -127,6 +127,7 @@ body {
       text-align: right;
     }
   }
+
   @media (min-width: 1600px) {
     h3 {
       margin-left: 2vw;
@@ -135,17 +136,15 @@ body {
       margin-top: 4em;
     }
 
-    .card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-
     .cv-text {
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    .profil-professionnel {
+      margin-top: 5em;
+      padding-left: 5vw;
     }
   }
 
@@ -200,7 +199,7 @@ body {
     justify-content: right;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 1.2em;
+    margin-top: 0.5em;
     margin-right: 2em;
   }
 
