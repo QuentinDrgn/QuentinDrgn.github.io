@@ -136,10 +136,9 @@ body {
     }
 
     .card {
-      margin: 0 auto;
-      left: unset;
-      top: unset;
-      transform: none;
+      width: 1000px;
+      height: 600px;
+      transform: translate(-50%, 0%);
     }
 
     .cv-text {
