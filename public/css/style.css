@@ -925,7 +925,7 @@ body {
       align-items: flex-end;
       margin: 0.5em 1em 0.5em auto;
       gap: 0.2em;
-      margin-bottom: 1em;
+      margin-bottom: 4em;
     }
     
     .nav a { 
@@ -938,6 +938,7 @@ body {
       font-size: 2.5em;
       letter-spacing: 0.08em;
       margin: 0.5em auto;
+      margin-bottom: 4em;
     }
 
     h2 { 
@@ -947,7 +948,7 @@ body {
     }
 
     h3 {
-      margin-bottom: 1em;
+      margin-bottom: 2em;
     }
     
     .presentation { 
