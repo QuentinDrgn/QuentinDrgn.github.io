@@ -1191,7 +1191,6 @@ body {
 
     .content .logo-bottom-text {
       font-size: 1.4em;
-      padding-bottom: 1em;
     }
 
     .content .logo1 .logo2 {
@@ -1205,7 +1204,7 @@ body {
       height: 28px;
       top: 50%;
       left: 50%;
-      transform: translate(-0%, -50%);
+      transform: translate(-20%, -80%);
     }
     
     .cv-text {
@@ -1215,8 +1214,11 @@ body {
     }
 
     .btn {
-      font-size: 0.8em;
-      padding: 0.5em 0.7em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2em;
+      padding: 0.5em 1em;
       margin: 1em auto;
     }
 
