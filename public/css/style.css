@@ -820,6 +820,7 @@ body {
     .footer-container { flex-direction: column; align-items: stretch; max-width: 98vw; }
     .footer-section { min-width: 0; margin: 10px 0; }
     .footer-separator { display: none; }
+    .presentation2 p { margin-top: -6em; }
   }
 
   @media (max-width: 900px) {
@@ -1118,7 +1119,7 @@ body {
     .presentation2 p { 
       font-size: 1.1em;
       text-align: center;
-      margin-top: 25em;
+      margin-top: 1em;
     }
     
     .description-slide { 
