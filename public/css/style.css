@@ -1132,9 +1132,15 @@ body {
       font-size: 0.9em;
       max-width: 95vw;
     }
+
+    #skills {
+      margin-bottom: 2em;
+    }
     
     .card-3d {
       height: 120px;
+      margin-top: 2em;
+      margin-bottom: 2em;
     }
     
     .card-3d div {
@@ -1157,8 +1163,7 @@ body {
       width: 60px;
       height: 120px;
       filter: brightness(1);
-      top: -0.2%;
-      font-size: 1.2em;
+      top: 0%;
     }
 
     .card-3d:hover div:not(:hover) {
@@ -1178,7 +1183,13 @@ body {
       height: 50%;
       margin-left: 0.5em;
     }
+
+    content .logo-bottom-text {
+      font-size: 1em;
+      margin-top: 1em;
+    }
   }
+  
 
   @supports (-webkit-touch-callout: none) {
     .loading {
