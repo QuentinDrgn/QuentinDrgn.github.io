@@ -135,9 +135,14 @@ body {
       margin-top: 4em;
     }
 
+    .profil-professionnel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     .card {
-      position: sticky;
-      top: 0; 
+      position: static;
+      top: unset;
       left: unset;
       transform: none;
       margin: 0 auto;
