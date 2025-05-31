@@ -1186,13 +1186,13 @@ body {
 
     .content .logo-bottom-text {
       font-size: 1.4em;
-      margin-bottom: 0.5em;
+      margin-bottom: 1em;
     }
 
     .content .logo1 .logo2 {
       top: 5%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-5%, -50%);
     }
 
     .content .logo {
