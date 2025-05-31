@@ -1103,19 +1103,22 @@ body {
       width: 90vw;
       max-width: 250px;
       height: auto;
-      margin: 0 auto 0.5em auto;
-      margin-bottom: 2em;
+      margin: 0 auto 1em auto;
     }
     
-    .presentation2 { 
-      margin-top: 0.5em;
-      padding: 0 0.3em;
+    .presentation2 {
+      display: block;
+      width: 100%;
+      max-width: 90vw;
+      margin: 1em auto 0 auto;
+      padding: 0 0.5em;
+      text-align: center;
     }
 
     .presentation2 p { 
       font-size: 1.1em;
       text-align: center;
-      margin-top: 50em;
+      margin-top: 0.5em;
     }
     
     .description-slide { 
