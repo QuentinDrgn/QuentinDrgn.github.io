@@ -1134,13 +1134,13 @@ body {
     }
 
     #skills {
-      margin-bottom: 2em;
+      margin-bottom: 4em;
     }
     
     .card-3d {
       height: 120px;
       margin-top: 2em;
-      margin-bottom: 2em;
+      margin-bottom: 4em;
     }
     
     .card-3d div {
@@ -1185,8 +1185,7 @@ body {
     }
 
     content .logo-bottom-text {
-      font-size: 1em;
-      margin-top: 1em;
+      font-size: 0.6em;
     }
   }
   
