@@ -1185,7 +1185,13 @@ body {
     }
 
     .content .logo-bottom-text {
-      font-size: 1.3em;
+      font-size: 1.6em;
+    }
+
+    .content .logo1 .logo2 {
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
     .content .logo {
