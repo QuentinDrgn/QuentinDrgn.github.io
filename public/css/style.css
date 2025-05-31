@@ -110,6 +110,7 @@ body {
     margin-left: 2em;
     margin-right: 11.5em;
     left: unset;
+    margin-top: 2em;
   }
 
   @media (max-width: 1200px) {
@@ -1137,28 +1138,28 @@ body {
     }
     
     .card-3d div {
-      width: 80px;
+      width: 60px;
       height: 120px;
     }
 
-    .card-3d div:nth-child(1) { transform: translate(-50%, -50%) rotateY(0deg) translateZ(150px); }
-    .card-3d div:nth-child(2) { transform: translate(-50%, -50%) rotateY(36deg) translateZ(150px); }
-    .card-3d div:nth-child(3) { transform: translate(-50%, -50%) rotateY(72deg) translateZ(150px); }
-    .card-3d div:nth-child(4) { transform: translate(-50%, -50%) rotateY(108deg) translateZ(150px); }
-    .card-3d div:nth-child(5) { transform: translate(-50%, -50%) rotateY(144deg) translateZ(150px); }
-    .card-3d div:nth-child(6) { transform: translate(-50%, -50%) rotateY(180deg) translateZ(150px); }
-    .card-3d div:nth-child(7) { transform: translate(-50%, -50%) rotateY(216deg) translateZ(150px); }
-    .card-3d div:nth-child(8) { transform: translate(-50%, -50%) rotateY(252deg) translateZ(150px); }
-    .card-3d div:nth-child(9) { transform: translate(-50%, -50%) rotateY(288deg) translateZ(150px); }
-    .card-3d div:nth-child(10) { transform: translate(-50%, -50%) rotateY(324deg) translateZ(150px); }
+    .card-3d div:nth-child(1) { transform: translate(-50%, -50%) rotateY(0deg) translateZ(140px); }
+    .card-3d div:nth-child(2) { transform: translate(-50%, -50%) rotateY(36deg) translateZ(140px); }
+    .card-3d div:nth-child(3) { transform: translate(-50%, -50%) rotateY(72deg) translateZ(140px); }
+    .card-3d div:nth-child(4) { transform: translate(-50%, -50%) rotateY(108deg) translateZ(140px); }
+    .card-3d div:nth-child(5) { transform: translate(-50%, -50%) rotateY(144deg) translateZ(140px); }
+    .card-3d div:nth-child(6) { transform: translate(-50%, -50%) rotateY(180deg) translateZ(140px); }
+    .card-3d div:nth-child(7) { transform: translate(-50%, -50%) rotateY(216deg) translateZ(140px); }
+    .card-3d div:nth-child(8) { transform: translate(-50%, -50%) rotateY(252deg) translateZ(140px); }
+    .card-3d div:nth-child(9) { transform: translate(-50%, -50%) rotateY(288deg) translateZ(140px); }
+    .card-3d div:nth-child(10) { transform: translate(-50%, -50%) rotateY(324deg) translateZ(140px); }
 
     .card-3d div:hover {
-      width: 80px;
+      width: 60px;
       height: 120px;
     }
 
-    .card-3d div.card:not(:hover) {
-      width: 80px;
+    .card-3d:hover div:not(:hover) {
+      width: 60px;
       height: 120px;
       filter: brightness(0.7);
     }
