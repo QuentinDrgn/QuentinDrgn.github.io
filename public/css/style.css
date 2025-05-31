@@ -136,10 +136,10 @@ body {
     }
 
     .card {
-      position: sticky;
-      top: -50%;
+      position: absolute;
+      top: 50%;
       left: 50%;
-      transform: translate(-100%, 0%);
+      transform: translate(-50%, -50%);
     }
 
     .cv-text {
