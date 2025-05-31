@@ -1104,6 +1104,7 @@ body {
       max-width: 250px;
       height: auto;
       margin: 0 auto 0.5em auto;
+      margin-bottom: 2em;
     }
     
     .presentation2 { 
