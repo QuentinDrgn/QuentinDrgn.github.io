@@ -1190,7 +1190,8 @@ body {
     }
 
     .content .logo-bottom-text {
-      font-size: 1.4em;
+      font-size: 1.2em;
+      margin: auto;
     }
 
     .content .logo1 .logo2 {
@@ -1214,12 +1215,13 @@ body {
     }
 
     .btn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       font-size: 1.2em;
       margin: auto;
       margin-top: 2em;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0.5em 1em;
     }
 
     .footer-section a {
