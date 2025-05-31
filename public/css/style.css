@@ -1066,14 +1066,14 @@ body {
     }
     
     h1, h2 { 
-      font-size: 2em;
+      font-size: 4em;
       letter-spacing: 0.05em;
       margin-bottom: 2em;
       text-align: right;
     }
 
     h3 { 
-      font-size: 1.2em;
+      font-size: zem;
       margin: 0.5em auto;
     }
 
