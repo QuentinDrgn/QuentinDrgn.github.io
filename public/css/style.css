@@ -136,11 +136,13 @@ body {
     }
 
     .card {
-      width: 1000px;
-      height: 600px;
-      transform: translate(-50%, 0%);
+      position: static;
+      top: unset;
+      left: unset;
+      transform: none;
+      margin: 0 auto;
     }
-
+    
     .cv-text {
       display: flex;
       justify-content: center;
