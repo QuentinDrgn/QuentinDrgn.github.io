@@ -29,5 +29,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     loading.style.display = 'none';
     mainContent.classList.remove('hidden');
-  }, 1);
+  }, 5000);
 });
