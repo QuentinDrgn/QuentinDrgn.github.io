@@ -1204,7 +1204,7 @@ body {
       height: 28px;
       top: 50%;
       left: 50%;
-      transform: translate(-40%, -80%);
+      transform: translate(-20%, -50%);
     }
     
     .cv-text {
@@ -1219,9 +1219,7 @@ body {
       align-items: center;
       font-size: 1.2em;
       padding: 0.5em 1em;
-      margin: 1em auto;
-      left: 50%;
-      transform: translateX(-50%);
+      margin: 1em;
     }
 
     .footer-section a {
