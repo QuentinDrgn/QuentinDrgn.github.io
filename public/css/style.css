@@ -1205,13 +1205,31 @@ body {
       height: 28px;
       top: 50%;
       left: 50%;
-      transform: translate(-80%, -50%);
+      transform: translate(-0%, -50%);
     }
     
     .cv-text {
       margin-right: 0;
       text-align: center;
       font-size: 1.2em;
+    }
+
+    .btn {
+      font-size: 0.8em;
+      padding: 0.5em 0.7em;
+      margin: 1em auto;
+    }
+
+    .footer-section a {
+      font-size: 1.2em;
+      margin: 0.2em 0;
+      text-align: right;
+    }
+
+    .footer-section p {
+      font-size: 1.2em;
+      margin: 0.5em 0;
+      text-align: right;
     }
   }
   
