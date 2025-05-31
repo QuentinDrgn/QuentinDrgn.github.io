@@ -208,7 +208,7 @@ body {
     }
     .nav a {
       font-size: 1em;
-      margin: 0.2em 0;
+      margin: 0.2em 1em;
       text-align: right;
     }
   }
@@ -258,6 +258,10 @@ body {
 
   h1 {
     font-size: 4em;
+  }
+
+  h3 {
+    margin-bottom: 2em;
   }
 
   h2{
