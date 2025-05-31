@@ -4,6 +4,10 @@ body {
   cursor: none;
 }
 
+body {
+  cursor: none;
+}
+
 .dot-cursor, .dot-trail {
   width: 20px;
   height: 20px;
@@ -709,6 +713,7 @@ h4 {
 }
 
 .footer-section ul li a:hover {
+  text-decoration: underline;
   color: #865ff2;
 }
 
