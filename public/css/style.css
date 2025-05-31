@@ -1166,6 +1166,11 @@ body {
       top: 0%;
     }
 
+    .card-3d div:hover h4 {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+    }
+
     .card-3d:hover div:not(:hover) {
       width: 60px;
       height: 120px;
@@ -1186,7 +1191,7 @@ body {
 
     .content .logo-bottom-text {
       font-size: 1.4em;
-      margin-bottom: 1em;
+      padding-bottom: 1em;
     }
 
     .content .logo1 .logo2 {
@@ -1199,8 +1204,9 @@ body {
       width: 25px;
       height: 28px;
       top: 50%;
-      left: auto;
-      
+      left: 50%;
+      transform: translate(-50%, -50%);
+
     }
   }
   
