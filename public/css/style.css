@@ -1140,7 +1140,7 @@ body {
     .card-3d {
       height: 120px;
       margin-top: 2em;
-      margin-bottom: 4em;
+      margin-bottom: 6em;
     }
     
     .card-3d div {
@@ -1184,7 +1184,7 @@ body {
       margin-left: 0.5em;
     }
 
-    content .logo-bottom-text {
+    .logo-bottom-text {
       font-size: 0.6em;
     }
   }
