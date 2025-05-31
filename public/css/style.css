@@ -138,12 +138,13 @@ body {
     .card {
       top: 50%;
       left: 50%;
-      transform: translate(-30%, -50%);
+      transform: translate(-50%, -50%);
     }
 
     .cv-text {
-      display: block;
-      margin-right: 4em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 
