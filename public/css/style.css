@@ -107,9 +107,31 @@ h3 {
   font-size: 1.5em;
   letter-spacing: 0.2em;
   font-weight: 800;
-  left: 2%;
-  font-weight: 800;
+  margin-left: 2em;
   margin-right: 11.5em;
+  left: unset;
+}
+
+@media (max-width: 1200px) {
+  h3 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 900px) {
+  h3 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1em;
+  }
+}
+@media (min-width: 1600px) {
+  h3 {
+    margin-left: 8vw;
+    margin-right: 0;
+    font-size: 2em;
+  }
 }
 
 h1 {
