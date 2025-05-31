@@ -139,7 +139,7 @@ body {
       position: sticky;
       top: -50%;
       left: 50%;
-      transform: translate(-50%, 0%);
+      transform: translate(-100%, 0%);
     }
 
     .cv-text {
