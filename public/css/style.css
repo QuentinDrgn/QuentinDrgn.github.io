@@ -936,7 +936,7 @@ body {
     max-width: min(350px, 90vw);
     height: auto;
     border-radius: 15px;
-    margin: clamp(0.8em, 2vw, 0em);
+    margin: clamp(0.8em, 1vw, 1em);
     border: 3px solid #865ff2;
     box-shadow: rgba(134, 95, 242, 0.2) 0px 4px 16px 0px;
     transition: all 0.3s ease;
