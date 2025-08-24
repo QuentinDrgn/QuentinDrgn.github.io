@@ -806,12 +806,12 @@ body {
 
   .experience-section h2 {
     display: flex;
-    justify-content: left;
-    margin-left: 1.1em;
+    justify-content: flex-start;
     text-align: left;
-    max-width: 1200px;
-    margin: 0 auto;
     margin-left: 1.1em;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 1em;
   }
 
   .stage-diary {
