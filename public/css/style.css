@@ -338,14 +338,16 @@ body {
   }
 
   h2{
-    color:white;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 5em;
     letter-spacing: 0.4em;
     font-weight: 800;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     margin-left: 1.1em;
+    margin-bottom: 1em;
+    margin-top: 0;
   }
 
   .description-slide {
@@ -802,10 +804,6 @@ body {
     padding: 2em 0;
     margin: 4em auto;
     max-width: 1200px;
-  }
-
-  .experience-section h2 {
-    margin-left: -0.5em;
   }
 
   .stage-diary {
