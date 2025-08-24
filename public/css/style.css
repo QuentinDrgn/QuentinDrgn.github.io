@@ -809,6 +809,9 @@ body {
     justify-content: left;
     margin-left: 1.1em;
     text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 1.1em;
   }
 
   .stage-diary {
@@ -818,11 +821,15 @@ body {
   .diary-title {
     color: #abdd22;
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: 600;
     text-align: center;
     margin-bottom: 3em;
     letter-spacing: 0.2em;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2em;
   }
 
   .month-container {
@@ -902,8 +909,8 @@ body {
   .summary {
     background: #2d2d2d;
     border-radius: 15px;
-    padding: 2em;
-    margin: 3em auto;
+    padding: 3em;
+    margin: 4em auto;
     border: 2px solid #abdd22;
     box-shadow: rgba(171, 221, 34, 0.1) 0px 4px 16px 0px;
     transition: all 0.3s ease;
@@ -925,22 +932,28 @@ body {
     letter-spacing: 0.15em;
     border-bottom: 2px solid #abdd22;
     padding-bottom: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .summary p {
     color: #abdd22;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 1.8;
-    text-align: center;
+    text-align: justify;
     font-weight: 400;
     letter-spacing: 0.05em;
     margin: 0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .summary-photos {
-    margin: 4em auto;
-    padding: 2em;
+    margin: 5em auto;
+    padding: 3em;
     max-width: 1200px;
     text-align: center;
   }
@@ -948,11 +961,14 @@ body {
   .summary-text {
     color: #865ff2;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 600;
     text-align: center;
     margin-bottom: 3em;
     letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .summary-pic {
