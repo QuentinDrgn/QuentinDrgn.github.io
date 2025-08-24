@@ -163,12 +163,6 @@ body {
       font-size: 2.5em;
       margin: 0 0 1em 0;
     }
-    
-    .summary-pic {
-      width: 28%;
-      max-width: 400px;
-      margin: 1.5em;
-    }
   }
 
   h1 {
@@ -948,6 +942,22 @@ body {
     transition: all 0.3s ease;
     object-fit: cover;
     display: inline-block;
+    vertical-align: top;
+  }
+
+  /* Ensure images are centered on larger screens */
+  @media (min-width: 769px) {
+    .summary-photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: clamp(0.8em, 2vw, 1em);
+    }
+    
+    .summary-pic {
+      margin: 0;
+    }
   }
 
   /* For very small screens, make images stack vertically and take more space */
