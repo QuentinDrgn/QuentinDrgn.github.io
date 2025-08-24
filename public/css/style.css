@@ -804,16 +804,6 @@ body {
     max-width: 1200px;
   }
 
-  .experience-section h2 {
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
-    margin-left: 1.1em;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 1em;
-  }
-
   .stage-diary {
     margin-top: 3em;
   }
@@ -1140,12 +1130,6 @@ body {
       margin: 0.5em auto;
     }
     
-    .experience-section h2 {
-      text-align: center;
-      justify-content: center;
-      margin: 0.5em auto;
-    }
-    
     .presentation2 { 
       flex-direction: column; 
       align-items: center; 
@@ -1315,12 +1299,6 @@ body {
     h2 { 
       font-size: 2em; 
       letter-spacing: 0.08em;
-      margin: 0.5em auto;
-    }
-    
-    .experience-section h2 {
-      text-align: center;
-      justify-content: center;
       margin: 0.5em auto;
     }
     
@@ -1525,12 +1503,6 @@ body {
       letter-spacing: 0.05em;
       margin-bottom: 1.5em;
       text-align: right;
-    }
-
-    .experience-section h2 {
-      text-align: center;
-      justify-content: center;
-      margin: 0.5em auto;
     }
 
     h3 { 
