@@ -804,6 +804,10 @@ body {
     max-width: 1200px;
   }
 
+  .experience-section h2 {
+    margin-left: 4em;
+  }
+
   .stage-diary {
     margin-top: 3em;
   }
