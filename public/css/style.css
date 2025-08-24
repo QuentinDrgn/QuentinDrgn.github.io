@@ -913,7 +913,7 @@ body {
   }
 
   .summary-photos {
-    margin: 0 auto;
+    margin: clamp(3em, 8vw, 5em) auto;
     padding: clamp(1.5em, 4vw, 3em);
     max-width: min(1200px, 95vw);
     width: 100%;
