@@ -343,7 +343,8 @@ body {
     font-size: 5em;
     letter-spacing: 0.4em;
     font-weight: 800;
-    text-align: center;
+    display: flex;
+    justify-content: left;
     margin-left: 1.1em;
   }
 
