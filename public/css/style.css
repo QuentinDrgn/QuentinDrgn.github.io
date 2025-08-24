@@ -949,9 +949,10 @@ body {
     .summary-photos {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: flex-start;
       gap: clamp(0.8em, 2vw, 1em);
+      padding-left: clamp(2em, 5vw, 4em);
     }
     
     .summary-pic {
