@@ -164,38 +164,6 @@ body {
       margin: 0 0 1em 0;
     }
     
-    .summary {
-      padding: 4em;
-      max-width: 800px;
-    }
-    
-    .summary-title {
-      font-size: 2.5em;
-      margin: 0 0 1.5em 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .summary p {
-      font-size: 1.2em;
-      line-height: 1.9;
-    }
-    
-    .summary-photos {
-      padding: 3em;
-      margin: 5em auto;
-      max-width: 1400px;
-    }
-    
-    .summary-text {
-      font-size: 2em;
-      margin-bottom: 3.5em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
     .summary-pic {
       width: 28%;
       max-width: 400px;
@@ -909,12 +877,13 @@ body {
   .summary {
     background: #2d2d2d;
     border-radius: 15px;
-    padding: 1em;
-    margin: 4em auto;
+    padding: clamp(1.5em, 4vw, 3em);
+    margin: clamp(2em, 6vw, 4em) auto;
     border: 2px solid #abdd22;
     box-shadow: rgba(171, 221, 34, 0.1) 0px 4px 16px 0px;
     transition: all 0.3s ease;
-    max-width: 1000px;
+    max-width: min(1000px, 95vw);
+    width: 100%;
   }
 
   .summary:hover {
@@ -925,62 +894,69 @@ body {
   .summary-title {
     color: #865ff2;
     font-family: 'Roboto', sans-serif;
-    font-size: 2.2em;
+    font-size: clamp(1.5em, 4vw, 2.2em);
     font-weight: 700;
     text-align: center;
-    margin-bottom: 1em;
-    letter-spacing: 0.15em;
+    margin: 0 0 clamp(0.8em, 2vw, 1em) 0;
+    letter-spacing: clamp(0.05em, 0.3vw, 0.15em);
     border-bottom: 2px solid #abdd22;
-    padding-bottom: 0.8em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: clamp(0.5em, 1.5vw, 0.8em);
+    display: block;
   }
 
   .summary p {
     color: #abdd22;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-    line-height: 1.8;
+    font-size: clamp(1em, 2.5vw, 1.2em);
+    line-height: clamp(1.6, 0.2vw + 1.6, 1.8);
     text-align: justify;
     font-weight: 400;
-    letter-spacing: 0.05em;
+    letter-spacing: clamp(0.02em, 0.1vw, 0.05em);
     margin: 0;
-    max-width: 900px;
+    max-width: min(900px, 100%);
     margin-left: auto;
     margin-right: auto;
   }
 
   .summary-photos {
-    margin: 5em auto;
-    padding: 3em;
-    max-width: 1200px;
+    margin: clamp(3em, 8vw, 5em) auto;
+    padding: clamp(1.5em, 4vw, 3em);
+    max-width: min(1200px, 95vw);
+    width: 100%;
     text-align: center;
   }
 
   .summary-text {
     color: #865ff2;
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: clamp(1.4em, 4vw, 2em);
     font-weight: 600;
     text-align: center;
-    margin-bottom: 3em;
-    letter-spacing: 0.1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: clamp(2em, 5vw, 3em);
+    letter-spacing: clamp(0.05em, 0.2vw, 0.1em);
+    display: block;
   }
 
   .summary-pic {
-    width: 30%;
-    max-width: 350px;
+    width: clamp(280px, 30%, 350px);
+    max-width: min(350px, 90vw);
     height: auto;
     border-radius: 15px;
-    margin: 1em;
+    margin: clamp(0.8em, 2vw, 1em);
     border: 3px solid #865ff2;
     box-shadow: rgba(134, 95, 242, 0.2) 0px 4px 16px 0px;
     transition: all 0.3s ease;
     object-fit: cover;
+    display: inline-block;
+  }
+
+  /* For very small screens, make images stack vertically and take more space */
+  @media (max-width: 480px) {
+    .summary-pic {
+      width: min(90vw, 300px);
+      display: block;
+      margin: clamp(0.8em, 2vw, 1em) auto;
+    }
   }
 
   .summary-pic:hover {
@@ -1093,37 +1069,6 @@ body {
     
     .week-container {
       padding: 1.5em;
-    }
-    
-    .summary {
-      padding: 2em;
-      margin: 3em auto;
-    }
-    
-    .summary-title {
-      font-size: 2em;
-      text-align: center;
-      display: block;
-      margin: 0 auto 2em auto;
-    }
-    
-    .summary p {
-      font-size: 1em;
-    }
-    
-    .summary-photos {
-      padding: 1.5em;
-      margin: 3em auto;
-    }
-    
-    .summary-text {
-      font-size: 1.6em;
-      margin-bottom: 2em;
-    }
-    
-    .summary-pic {
-      width: 45%;
-      margin: 0.8em;
     }
   }
 
@@ -1240,41 +1185,6 @@ body {
     
     .day-entry p {
       font-size: 0.95em;
-    }
-    
-    .summary {
-      padding: 2em;
-      margin: 2em auto;
-    }
-    
-    .summary-title {
-      font-size: 1.8em;
-      margin-bottom: 1.5em;
-      text-align: center;
-      display: block;
-      margin: 0 auto 1.5em auto;
-    }
-    
-    .summary p {
-      font-size: 1em;
-      line-height: 1.6;
-    }
-    
-    .summary-photos {
-      padding: 1em;
-      margin: 2em auto;
-    }
-    
-    .summary-text {
-      font-size: 1.4em;
-      margin-bottom: 2em;
-    }
-    
-    .summary-pic {
-      width: 80%;
-      max-width: 300px;
-      margin: 1em auto;
-      display: block;
     }
   }
 
@@ -1458,41 +1368,6 @@ body {
     .day-entry p {
       font-size: 0.9em;
       line-height: 1.5;
-    }
-    
-    .summary {
-      padding: 1.5em;
-      margin: 2em auto;
-    }
-    
-    .summary-title {
-      font-size: 1.5em;
-      margin-bottom: 1.2em;
-      text-align: center;
-      display: block;
-      margin: 0 auto 1.2em auto;
-    }
-    
-    .summary p {
-      font-size: 0.95em;
-      line-height: 1.6;
-    }
-    
-    .summary-photos {
-      padding: 1em;
-      margin: 1.5em auto;
-    }
-    
-    .summary-text {
-      font-size: 1.2em;
-      margin-bottom: 1.5em;
-    }
-    
-    .summary-pic {
-      width: 90%;
-      max-width: 280px;
-      margin: 0.8em auto;
-      display: block;
     }
   }
 
@@ -1705,41 +1580,6 @@ body {
     .experience-section {
       padding: 1em 0;
       margin: 2em auto;
-    }
-    
-    .summary {
-      padding: 1em;
-      margin: 1.5em auto;
-    }
-    
-    .summary-title {
-      font-size: 1.3em;
-      margin-bottom: 1em;
-      text-align: center;
-      display: block;
-      margin: 0 auto 1em auto;
-    }
-    
-    .summary p {
-      font-size: 0.9em;
-      line-height: 1.5;
-    }
-    
-    .summary-photos {
-      padding: 0.8em;
-      margin: 1.5em auto;
-    }
-    
-    .summary-text {
-      font-size: 1.1em;
-      margin-bottom: 1.2em;
-    }
-    
-    .summary-pic {
-      width: 95%;
-      max-width: 250px;
-      margin: 0.6em auto;
-      display: block;
     }
   }
   
