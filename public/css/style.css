@@ -886,7 +886,7 @@ body {
     box-shadow: rgba(171, 221, 34, 0.1) 0px 4px 16px 0px;
     transition: all 0.3s ease;
     max-width: min(1000px, 95vw);
-    width: 100%;
+    width: 95%;
   }
 
   @media (max-width: 600px) {
