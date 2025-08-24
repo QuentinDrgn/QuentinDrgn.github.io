@@ -147,6 +147,21 @@ body {
       padding-left: 5vw;
       margin-right: 15em;
     }
+    
+    .experience-section {
+      max-width: 1400px;
+      padding: 3em 0;
+    }
+    
+    .month-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4em;
+      padding: 0 3em;
+    }
+    
+    .diary-title {
+      font-size: 3em;
+    }
   }
 
   h1 {
@@ -744,6 +759,100 @@ body {
     padding-top: 4em;
   }
 
+  .experience-section {
+    padding: 2em 0;
+    margin: 4em auto;
+    max-width: 1200px;
+  }
+
+  .stage-diary {
+    margin-top: 3em;
+  }
+
+  .diary-title {
+    color: #abdd22;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3em;
+    letter-spacing: 0.2em;
+  }
+
+  .month-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 3em;
+    padding: 0 2em;
+  }
+
+  .week-container {
+    background: #2d2d2d;
+    border-radius: 15px;
+    padding: 2em;
+    border: 2px solid #865ff2;
+    transition: all 0.3s ease;
+    box-shadow: rgba(134, 95, 242, 0.1) 0px 4px 16px 0px;
+  }
+
+  .week-container:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(134, 95, 242, 0.3) 0px 8px 24px 0px;
+    border-color: #abdd22;
+  }
+
+  .week-title {
+    color: #abdd22;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid #865ff2;
+    padding-bottom: 0.5em;
+  }
+
+  .week-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .day-entry {
+    background: rgba(171, 221, 34, 0.05);
+    border-left: 4px solid #abdd22;
+    padding: 1em;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  .day-entry:hover {
+    background: rgba(171, 221, 34, 0.1);
+    transform: translateX(5px);
+  }
+
+  .day-label {
+    color: #865ff2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.1em;
+  }
+
+  .day-entry p {
+    color: #abdd22;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  }
+
   .footer {
     color: #eee;
     padding: 40px 20px;
@@ -840,6 +949,15 @@ body {
     .footer-section { min-width: 0; margin: 10px 0; }
     .footer-separator { display: none; }
     .presentation2 p { margin-top: -6em; }
+    
+    .month-container {
+      grid-template-columns: 1fr;
+      padding: 0 1em;
+    }
+    
+    .week-container {
+      padding: 1.5em;
+    }
   }
 
   @media (max-width: 900px) {
@@ -928,6 +1046,31 @@ body {
       text-align: center;
       margin: 2em auto;
       max-width: 90vw;
+    }
+    
+    .diary-title {
+      font-size: 2em;
+    }
+    
+    .month-container {
+      gap: 2em;
+      padding: 0 0.5em;
+    }
+    
+    .week-container {
+      padding: 1.5em;
+    }
+    
+    .week-title {
+      font-size: 1.3em;
+    }
+    
+    .day-label {
+      font-size: 1em;
+    }
+    
+    .day-entry p {
+      font-size: 0.95em;
     }
   }
 
@@ -1077,6 +1220,38 @@ body {
     .loading-bar {
       width: 90vw;
       max-width: 300px;
+    }
+    
+    .diary-title {
+      font-size: 1.8em;
+      margin-bottom: 2em;
+    }
+    
+    .month-container {
+      gap: 1.5em;
+      padding: 0 0.3em;
+    }
+    
+    .week-container {
+      padding: 1em;
+    }
+    
+    .week-title {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+    
+    .day-entry {
+      padding: 0.8em;
+    }
+    
+    .day-label {
+      font-size: 0.95em;
+    }
+    
+    .day-entry p {
+      font-size: 0.9em;
+      line-height: 1.5;
     }
   }
 
@@ -1248,6 +1423,45 @@ body {
     .footer-container h4 {
       text-align: center;
       font-size: 2em;
+    }
+    
+    .diary-title {
+      font-size: 1.5em;
+      margin-bottom: 1.5em;
+    }
+    
+    .month-container {
+      gap: 1em;
+      padding: 0 0.2em;
+    }
+    
+    .week-container {
+      padding: 0.8em;
+    }
+    
+    .week-title {
+      font-size: 1.1em;
+      margin-bottom: 0.8em;
+    }
+    
+    .day-entry {
+      padding: 0.6em;
+      margin-bottom: 0.5em;
+    }
+    
+    .day-label {
+      font-size: 0.9em;
+      margin-bottom: 0.3em;
+    }
+    
+    .day-entry p {
+      font-size: 0.85em;
+      line-height: 1.4;
+    }
+    
+    .experience-section {
+      padding: 1em 0;
+      margin: 2em auto;
     }
   }
   
