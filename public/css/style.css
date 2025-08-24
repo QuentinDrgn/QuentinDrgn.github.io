@@ -909,8 +909,8 @@ body {
   .summary {
     background: #2d2d2d;
     border-radius: 15px;
-    padding: 3em;
-    margin: 1em auto;
+    padding: 1em;
+    margin: 4em auto;
     border: 2px solid #abdd22;
     box-shadow: rgba(171, 221, 34, 0.1) 0px 4px 16px 0px;
     transition: all 0.3s ease;
